@@ -1,0 +1,45 @@
+
+
+.parent {
+    display: grid;
+    padding: 0;
+    margin: 0;
+    background: url("../../../assets/images/Rectangle.png")  no-repeat;
+    background-size: 100% 85%;
+    border: 0px solid #D0915D;
+    height: 818px;
+    width: 100%;
+    grid-template-columns: 3fr repeat(2, 1fr) 4fr;
+    grid-template-rows: 3fr repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 5px;
+    }
+    
+    .div1 { 
+        grid-area: 1 / 1 / 2 / 2;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+     }
+   
+    .div3 { 
+        grid-area: 1 / 4 / 2 / 5;
+        display: flex;
+        position: relative;
+       
+
+        
+    }
+    .div3 img {
+        width: 600px;
+        align-items: flex-end;
+        position: absolute;
+        left: 180px;
+        
+        
+        
+
+    }
+    .div4 { 
+        align-self: flex-end;
+     }
