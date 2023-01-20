@@ -28,7 +28,7 @@
   
   .module1 {
     background: #FFF9F3;
-    color: #73451F;
+    color: #d28a50;
     font-size: 24px;
     padding: 2rem;
     display: flex;
@@ -42,4 +42,21 @@
   .module1 h3{
     align-self: flex-end;
   }
+
+ /* Carousel container */
+ :host ::ng-deep .carousel-indicators button
+ {
+   background-color: #222831 !important;
+   /*more custom style*/
+ }
  
+ .carousel-indicators .active {
+   background-color: rgb(15, 14, 14) !important;
+ }
+ :host ::ng-deep .carousel-control-prev-icon{
+  background-image: url('https://apufpel.com.br/assets/img/seta_prim.png');
+ }
+ 
+ :host ::ng-deep .carousel-control-next-icon{
+  background-image: url('https://apufpel.com.br/assets/img/seta_ult.png');
+ }

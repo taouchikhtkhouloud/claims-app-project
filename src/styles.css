@@ -15,7 +15,7 @@
     padding: 0;
     background: #FFF9F3;
   }
- button{
+ .btn1{
     width: auto;
 height: 47px;
 padding: 10px;
@@ -33,3 +33,42 @@ color: #FFFFFF;
 cursor: pointer;
 
 }
+.titre {
+width: 698px;
+height: 102px;
+
+font-family: 'Anybody', cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 50px;
+
+color: #1E1E1E;
+}
+.link {
+  
+
+  font-family: 'Poppins';
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #A2AAA2;
+      
+  }
+
+  .link:hover{
+  
+
+    font-family: 'Poppins';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #494e49;
+    margin: 20px;
+    
+        
+    }

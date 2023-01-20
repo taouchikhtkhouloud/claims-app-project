@@ -1,13 +1,20 @@
 import { Component } from '@angular/core';
-import { MdbCarouselComponent, MdbCarouselItemComponent } from 'mdb-angular-ui-kit/carousel';
+import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 @Component({
   selector: 'app-testimonials',
   templateUrl: './testimonials.component.html',
-  styleUrls: ['./testimonials.component.css']
+  styleUrls: ['./testimonials.component.css'],
+  providers: [NgbCarouselConfig] 
 })
 export class TestimonialsComponent {
-  mdbcarousel = MdbCarouselComponent
-  mdbcarouselitem= MdbCarouselItemComponent
+  
+  constructor(config: NgbCarouselConfig) {
+    // customize default values of carousels used by this component tree
+    config.interval = 2000;
+    config.wrap = true;
+    config.keyboard = false;
+    config.pauseOnHover = false;
+  }
   items = [    { 
     name: 'International Program Developer',
    image: '../../../assets/images/Image.png' , 

@@ -9,6 +9,7 @@ import { HeaderComponent } from './component/header/header.component';
 import { ServiceComponent } from './component/service/service.component';
 import { TestimonialsComponent } from './component/testimonials/testimonials.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FooterComponent } from './component/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,6 +17,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HeaderComponent,
     ServiceComponent,
     TestimonialsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

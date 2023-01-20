@@ -1,19 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anybody:wght@200;300;400;700&display=swap');
-.container1 h2 {
-    position: absolute;
-width: 698px;
-height: 102px;
-left: 37px;
-top: 819px;
 
-font-family: 'Anybody', cursive;
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 50px;
-
-color: #1E1E1E;
-}
 .parent {
     display: grid;
     margin: 10px;
